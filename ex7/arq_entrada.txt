@@ -1,0 +1,12 @@
+nn/m
+nnn/m
+nns/m
+ss/m
+ssn/m
+sss/m
+ssns/Aprovado
+ssnn/Aprov. a confirmar
+nnnn/Aprov. a confirmar + Prova final
+nnns/Prova Final
+nnsn/Reprovado
+nnss/Reprovado
