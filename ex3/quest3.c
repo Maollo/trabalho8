@@ -43,9 +43,8 @@ int main(){
   fclose(arq);
 
   Quick(alunos,0,qtd);
-
+  qtd--;
   arq = fopen("saidada3.txt", "w");
-  printf("%d\n", qtd);
   for(i = 0;i< (qtd /2);i++){
     fputs(alunos[i].nome, arq);
     sprintf(idade, "%d ", alunos[i].idade);
@@ -78,7 +77,6 @@ void Quick(tipoAluno *alunos, int inicio, int fim){
       if(i <= j){
          aux = (alunos[i]).idade;
          strcpy(auxnome, (alunos[i]).nome);
-         // printf("%s\n",auxnome );
          strcpy((alunos[i]).nome,(alunos[j]).nome);
          (alunos[i]).idade = (alunos[j]).idade;
          strcpy((alunos[j]).nome,auxnome);
