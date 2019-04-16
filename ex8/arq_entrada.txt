@@ -1,0 +1,3 @@
+Mamiferos,Lobo,Lobo-Guara
+Reptil,Cobra,Jararaca
+Mamiferos,Lobo,Lobo-Cinzento
